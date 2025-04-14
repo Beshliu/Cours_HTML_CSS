@@ -1,0 +1,64 @@
+body{
+    background-color: #374151;
+    font-family: Roboto, sans-serif;
+}
+ul{
+list-style: none;
+}
+nav a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #fff;
+}
+#Search{
+    background-color: #1F293799;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+
+}
+.Date{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #fff;
+}
+.Natalya{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+.Developer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+}
+.paragraph_1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
+.paragraph_2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+.rights{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;   
+}
