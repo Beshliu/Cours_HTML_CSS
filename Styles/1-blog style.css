@@ -4,6 +4,7 @@ body{
 }
 ul{
 list-style: none;
+padding: 0%;
 }
 nav a{
     font-weight: 400;
@@ -12,11 +13,16 @@ nav a{
     color: #fff;
     text-decoration: none;
 }
+nav{
+    padding: 72px 0 80px 180px;
+}
 h1{
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
     color: #fff;
+    width: 525px;
+    margin: 0 0 30px 0;
 }
 #Search{
     background-color: #1F293799;
@@ -24,19 +30,27 @@ h1{
     font-size: 16px;
     line-height: 100%;
     color: #fff;
-
+    padding: 9px 128px 12px 49px;
+    border-radius: 100px;
+    margin: 0 0 69px 0;
 }
 .Date{
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
     color: #fff;
+    margin: 0 0 14px 0;
 }
 .Natalya{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #fff;
+    width: 214px;
+    height: 53px;
+    margin: 0 0 28px 0;
+}
+.FotoDisplay{
+    width: 896px;
+    height: 594px;
+    border-radius: 5px;
+    margin: 0 0 69px 0;
 }
 .Developer{
     font-weight: 400;
@@ -49,6 +63,7 @@ h1{
     font-size: 20px;
     line-height: 32px;
     color: #fff;
+    margin: 0 0 183px 0;
 }
 .paragraph_2{
     font-weight: 400;
@@ -60,5 +75,6 @@ h1{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: #fff;   
+    color: #fff; 
+    margin: 102px 0 0 0; 
 }
