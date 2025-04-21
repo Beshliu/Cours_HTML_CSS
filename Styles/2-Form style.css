@@ -14,14 +14,7 @@ p{
     letter-spacing: 0%;
     color: #333333; 
 }
-.LinkEnter{
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #089FE0; 
-}
+
 #company{
     font-family: Open Sans, sans-serif;
     font-weight: 600;
@@ -30,7 +23,7 @@ p{
     letter-spacing: 0%;
     color: #333333;
 }
-#name, #firstname, #E-mail{
+#name, #firstname, #e-mail{
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -40,7 +33,7 @@ p{
     background-color: #F5F5F5;
     font-style: italic;
 }
-#TopButton{
+#top-button{
     background-color: #089FE0;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
@@ -60,7 +53,7 @@ label{
     letter-spacing: 0%;
     color: #666;
 }
-.LinkCoditions{
+.link-coditions{
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -68,4 +61,11 @@ label{
     letter-spacing: 0%;
     color: #089FE0;
 }
-
+.link-enter{
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #089FE0; 
+}

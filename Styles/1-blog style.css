@@ -24,7 +24,7 @@ h1{
     width: 525px;
     margin: 0 0 30px 0;
 }
-#Search{
+#search{
     background-color: #1F293799;
     font-weight: 400;
     font-size: 16px;
@@ -34,29 +34,23 @@ h1{
     border-radius: 100px;
     margin: 0 0 69px 0;
 }
-.Date{
+.date{
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
     color: #fff;
     margin: 0 0 14px 0;
 }
-.Natalya{
+.natalya{
     width: 214px;
     height: 53px;
     margin: 0 0 28px 0;
 }
-.FotoDisplay{
+.foto-display{
     width: 896px;
     height: 594px;
     border-radius: 5px;
     margin: 0 0 69px 0;
-}
-.Developer{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    color: #fff;
 }
 .paragraph_1{
     font-weight: 400;
