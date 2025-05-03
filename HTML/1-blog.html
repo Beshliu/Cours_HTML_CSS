@@ -6,26 +6,29 @@
     <title>Блог</title>
     <link rel="stylesheet" href="../Styles/1-blog style.css">
 </head>
-<body>
+<body class="class-body">
 <header>
-    <nav>
-        <ul>
-            <li><a href="#">B</a></li>
-            <li><a href="#">Мой блог</a></li>
-            <li><a href="#">HTML и CSS</a></li>
-            <li><a href="#">Frontend</a></li>
-            <li><a href="#">Backend</a></li>
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li class="scan1"><div class="vi"><a href="#">B</a></div></li>
+            <li class="scan2"><a href="#">Мой блог</a></li>
+            <li class="scan3"><a href="#">HTML и CSS</a></li>
+            <li class="scan4"><a href="#">Frontend</a></li>
+            <li class="scan5"><a href="#">Backend</a></li>
+            <form action="/test" class="form-search">
+                <img src="../Icons/search.svg" alt="Лупа поиска" class="search-register">
+                <input type="text" placeholder="Поиск" id="search">
+            </form>
         </ul>
-        
     </nav>
-    <form action="/test">
-        <input type="text" placeholder="Поиск" id="search">
-    </form>
 </header>
-    <section>
-<p class="date">FRONTEND 12 мая 2024</p>
+    <section class="section-1">
+<div class="date"><p>FRONTEND</p> <img src="../Icons/Point.svg" alt="Точка тире"> <p>12 мая 2024</p></div>
 <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-<img src="../Images/foto-natalya.png" alt="Наталья Васильева Разработчик" class="natalya">
+   <div class="developer-natalya">
+<div><img src="../Images/Natalya.png" alt="Фото разработчика"></div>
+<div class="natalya">
+<p>Наталья Васильева</p> <p>Разработчик</p></div></div>
     <img src="../Images/foto-monitor.png" alt="фото монитора" class="foto-display">
     </section>
     <section>

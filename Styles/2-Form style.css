@@ -3,7 +3,8 @@
 }
 body{
 background-color: #FFA5A5;
-font-family: Open Sans, sans-serif;
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
 }
 h1{
     max-width: 383px;
