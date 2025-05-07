@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Форма регистрации</title>
+<title>Форма регистрации</title>
     <link rel="stylesheet" href="../Styles/2-Form style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="form-register">
-        <h1>Регистрация</h1>
+
+     <h1> Регистрация </h1>
+
         <div class="enter">
-        <div><p>Уже есть аккаунт?</p></div>
-        <div><a href="/test">Войти</a></div>
-    </div>
-        <form action="#" class="fields-input">
-                <input type="text" value="Моя компания" class="company" name="company">
-                <div class="user">
-               <input type="text" name="name" class="name" placeholder="Имя">
-               <input type="text" name="firstname" class="firstname" placeholder="Фамилия">
-</div>
-                <input type="email" class="e-mail" name="E-mail" placeholder="E-mail">
-                <button type="submit" class="top-button">Зарегистрироваться</button>
+            <p> Уже есть аккаунт? </p>
+            <a href="/test"> Войти </a>
+        </div>
+
+     <form action="#" class="fields-input">
+            <input type="text" value="Моя компания" class="company" name="company">
+                <span class="user">
+            <input type="text" name="name" class="name" placeholder="Имя">
+            <input type="text" name="firstname" class="firstname" placeholder="Фамилия">
+                </span>
+            <input type="email" class="e-mail" name="E-mail" placeholder="E-mail">
+                <button type="submit" class="top-button"> Зарегистрироваться </button>
+                
             <div class="link-coditions">
-<div><input type="checkbox" name="coditions" id="coditions">
-<label for="coditions" class="coditions-lable">Я прочитал и принимаю</label></div>
-<div></div><a href="#" class="coditions-a">Условия использования</a></div>
+<span> 
+    <input type="checkbox" name="coditions" id="coditions">
+    <label for="coditions" class="coditions-lable"> Я прочитал и принимаю </label>
+</span>
+<span>
+    <a href="#" class="coditions-a"> Условия использования </a>
+</span>
             </div>
         </form>
     </main>
