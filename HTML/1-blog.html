@@ -5,34 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
     <link rel="stylesheet" href="../Styles/1-blog style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="class-body">
 <header>
-    <nav>
-        <ul>
-            <li><a href="#">B</a></li>
-            <li><a href="#">Мой блог</a></li>
-            <li><a href="#">HTML и CSS</a></li>
-            <li><a href="#">Frontend</a></li>
-            <li><a href="#">Backend</a></li>
+    <nav class="navigation">
+        <ul class="nav-list">
+
+    <div class="selection-list">
+
+            <li> <span class="vi"> <a href="#"> B </a> </span> </li>
+
+            <li class="my-blog"> <a href="#"> Мой блог </a> </li>
+
+            <li class="html-css"> <a href="#"> HTML и CSS </a> </li>
+
+            <li class="frontend"> <a href="#"> Frontend </a> </li>
+
+            <li class="scan"> <a href="#"> Backend </a> </li>
+    </div>
+
+            <form action="/test" class="form-search">
+                <img src="../Icons/search.svg" alt="Лупа поиска" class="search-register">
+                <input type="text" placeholder="Поиск" id="search">
+            </form>
+
         </ul>
-        
     </nav>
-    <form action="/test">
-        <input type="text" placeholder="Поиск" id="search">
-    </form>
 </header>
-    <section>
-<p class="date">FRONTEND 12 мая 2024</p>
-<h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-<img src="../Images/foto-natalya.png" alt="Наталья Васильева Разработчик" class="natalya">
+
+    <section class="section-1">
+<div class="date"> 
+
+    <p>FRONTEND</p>
+    <img src="../Icons/Point.svg" alt="Точка тире">
+    <p>12 мая 2024</p>
+
+</div>
+        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+
+    <div class="developer-natalya">
+<div>
+    <img src="../Images/Natalya.png" alt="Фото разработчика">
+</div>
+    <div class="natalya">
+<p>Наталья Васильева</p> 
+<p>Разработчик</p>
+    </div>
+     </div>
     <img src="../Images/foto-monitor.png" alt="фото монитора" class="foto-display">
     </section>
+
     <section>
         <p class="paragraph_1">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная цветовая гамма сайта помогает привлечь и удержать внимание пользователей, сформировать положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить конверсию.</p>
         <p class="paragraph_2">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на поведение пользователей.</p>
         <p class="paragraph_2">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</p>
     </section>
+
 <footer>
     <p class="rights">Все права защищены (&#99;) 2024</p>
 </footer>
