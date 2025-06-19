@@ -32,16 +32,19 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+
 body {
     font-family: Inter, Fira Sans;
     max-width: var(--layout-width);
     margin: 0 auto;
 }
+
 body a {
     text-decoration: none;
 }
