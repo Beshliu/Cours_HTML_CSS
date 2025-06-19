@@ -1,0 +1,239 @@
+.wrapper-blue {
+    background-color: var(--color-blue);
+}
+
+/* Button */
+.button {
+    background-color: var(--color-white);
+    border: none;
+    border-radius: var(--radius-34);
+    padding: 12px 32px;
+    color: var(--color-blue);
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 140%;
+    margin: 0;
+}
+
+.button:hover {
+    background-color: var(--color-white-80);
+}
+
+@media (max-width:1050px) {
+    
+.button-enter {
+    display: none;
+}
+}
+
+/* Positive */
+.ad {
+    display: flex;
+    gap: 64px;
+    max-width: 1352px;
+    margin: 0 auto;
+    justify-content: center;
+    border-bottom: var(--border);
+    padding-bottom: 80px;
+    margin-bottom: 63px;
+}
+
+.ad__aitem {
+    display: flex;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    align-items: center;
+}
+
+/* Calculations */
+.calc {
+    display: flex;
+    border-bottom: var(--border);
+    margin: 0;
+}
+
+.calc__text-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.calc__text-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: var(--color-grey-50);
+    margin: 0;
+}
+
+@media (max-width:1150px) {
+
+.calc {
+    display: flex;
+    border-bottom: var(--border);
+    flex-direction: column-reverse;
+}
+}
+
+/* comparison */
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.list-point {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: var(--color-white-80);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.comparison__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--color-white);
+}
+
+/* banner */
+.banner-8 {
+    border: none;
+    border-radius: var(--radius-8);
+}
+
+.banner-16 {
+    border: none;
+    border-radius: var(--radius-16);
+}
+
+/* support */
+.support__list_aitem {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+/* section-header, paragraphs */
+.section-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-black);
+    margin: 0 0 24px;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: var(--color-grey-50);
+    margin-bottom: 40px;
+}
+
+.paragraph_center {
+    text-align: center;
+}
+@media (max-width:1200px) {
+    .section-header {
+        font-size: 36px;
+    }
+.paragraph_center {
+    text-align: left;
+}
+}
+/* tariffs */
+.banner-8__heading {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--color-black);
+    margin: 0 0 16px;
+}
+
+.banner-8__p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: var(--color-grey-50);
+    margin: 0 0 34px;
+}
+
+.benefit {
+    display: inline-block;
+    border: none;
+    border-radius: var(--radius-8);
+    background-color: var(--color-benefit);
+    padding: 4px 16px;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.benefit-size {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-grey);
+    margin-bottom: 40px;
+}
+
+.box__line {
+    display: grid;
+    grid-template-columns: 175px 120px;
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.box__price {
+    border-radius: var(--radius-8);
+    background-color: var(--color-yellow);
+    padding: 8px 16px;
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-left: -16px;
+}
+
+@media (max-width: 500px) {
+
+.box__line {
+    grid-template-columns: 170px 100px;
+}
+}
